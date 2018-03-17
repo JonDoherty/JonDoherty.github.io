@@ -1,0 +1,63 @@
+body{
+	background-image: url(https://netdna.webdesignerdepot.com/uploads/2012/11/featured48.jpg);
+}
+
+h1 {
+   font-family: monospace;	
+   color: lightgray;
+   border: outset; 
+   border-color: white;
+   text-align: center;
+   max-width: 600px;
+   margin-left:400px;
+}
+
+h2 {
+	max-width: 450px;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+    font-size: 35px;
+}
+
+div {
+	max-width: 308px;
+}
+
+.how	{
+	font-size:17px;
+	color: deepskyblue;
+	float: left;
+	border: 4px solid #33ccff;
+    padding: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.havedone {
+	font-size: 17px;
+	color: deepskyblue;
+	border: 4px solid #33ccff;
+	float: right;
+	padding: 3px;
+	border-radius: 4px;
+}
+
+.contact {
+	font-size: 17px;
+	color: deepskyblue;
+	border: 4px solid #33ccff;
+	float: right;
+	margin-right: 10px;
+	margin-left:10px;
+	padding: 3px;
+	border-radius: 4px;
+	text-decoration: none;
+    
+}
+
+.main {
+	max-width: 450px;
+	font-size: 22px;
+	font-family: Courier New;
+	color: lightgray;
