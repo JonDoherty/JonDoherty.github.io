@@ -1,6 +1,7 @@
 body {
 	background-image: url(http://sivanweb.com/assets/header-bg.jpg);
-	background-size: 1366px 668px;
+	width: 100%;
+	height: auto;
 }
 
 h1 {
