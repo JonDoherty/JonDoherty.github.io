@@ -1,53 +1,63 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-
-
-
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+body{
+	background-image: url(https://netdna.webdesignerdepot.com/uploads/2012/11/featured48.jpg);
 }
 
+h1 {
+   font-family: monospace;	
+   color: lightgray;
+   border: outset; 
+   border-color: white;
+   text-align: center;
+   max-width: 600px;
+   margin-left:400px;
+}
 
+h2 {
+	max-width: 450px;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+    font-size: 35px;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+div {
+	max-width: 308px;
+}
+
+.how	{
+	font-size:17px;
+	color: deepskyblue;
+	float: left;
+	border: 4px solid #33ccff;
+    padding: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.havedone {
+	font-size: 17px;
+	color: deepskyblue;
+	border: 4px solid #33ccff;
+	float: right;
+	padding: 3px;
+	border-radius: 4px;
+}
+
+.contact {
+	font-size: 17px;
+	color: deepskyblue;
+	border: 4px solid #33ccff;
+	float: right;
+	margin-right: 10px;
+	margin-left:10px;
+	padding: 3px;
+	border-radius: 4px;
+	text-decoration: none;
+    
+}
+
+.main {
+	max-width: 450px;
+	font-size: 22px;
+	font-family: Courier New;
+	color: lightgray;
