@@ -26,7 +26,7 @@ div {
 
 .how	{
 	font-size:17px;
-	color: deepskyblue;
+	color: white;
 	float: left;
 	border: 4px solid #33ccff;
     padding: 3px;
@@ -36,7 +36,7 @@ div {
 
 .havedone {
 	font-size: 17px;
-	color: deepskyblue;
+	color: white;
 	border: 4px solid #33ccff;
 	float: right;
 	padding: 3px;
@@ -45,7 +45,7 @@ div {
 
 .contact {
 	font-size: 17px;
-	color: deepskyblue;
+	color: white;
 	border: 4px solid #33ccff;
 	float: right;
 	margin-right: 10px;
