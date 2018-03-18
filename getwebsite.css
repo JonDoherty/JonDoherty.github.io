@@ -17,5 +17,7 @@ p {
 	font-size: 23px;
 	color: lightgray;
 	margin-top: 40px;
+	max-width: 950px;
+	margin-left: 200px;
 }
 
