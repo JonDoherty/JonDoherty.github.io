@@ -4,9 +4,13 @@ body {
 
 h1 {
 	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-size:30px;
 	}
 
 p {
 	font-size: 23px;
+	color: lightgray;
 }
 
