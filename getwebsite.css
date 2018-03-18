@@ -10,6 +10,7 @@ h1 {
 	border-bottom-style: double;
 	border-color: blue yellow;
 	max-width: 800px;
+	margin-left: 300px;
 	}
 
 p {
