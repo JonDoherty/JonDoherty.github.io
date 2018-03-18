@@ -6,9 +6,10 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: Impact;
-	font-size: 30px;
+	font-size: 40px;
 	border-bottom-style: double;
 	border-color: blue yellow;
+	max-width: 800px;
 	}
 
 p {
