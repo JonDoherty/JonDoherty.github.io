@@ -62,3 +62,10 @@ div {
 	font-size: 22px;
 	font-family: Courier New;
 	color: lightgray;
+
+@media screen and (max-width:959px) {
+	.body {
+		width:100%;
+	}
+}	
+	
