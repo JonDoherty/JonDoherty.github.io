@@ -1,5 +1,7 @@
 body{
 	background-image: url(http://www.borbay.com/wp-content/uploads/2012/06/Chrysler-Building-Painting-at-Night-by-Borbay.jpg);
+	width: 100%;
+	height: auto;
 }
 
 h1 {
