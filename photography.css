@@ -1,3 +1,8 @@
+.header {
+  border-bottom-style: 7px solid dark gray;
+  font-family: courier new;
+  margin-bottom: 20px;
+
 .photos {
   max-width: 1280;
   max-height: 680;
