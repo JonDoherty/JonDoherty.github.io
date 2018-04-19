@@ -10,7 +10,7 @@
   height: 750px;
 }  
 */
-img {
+#catportrait {
   max-width: 680px !important;
   max-height: 480px !important;
 }
