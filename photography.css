@@ -11,6 +11,6 @@
 }  
 */
 img {
-  width: 680px;
-  height: 480px;
+  width: 680px !important;
+  height: 480px !important;
 }
