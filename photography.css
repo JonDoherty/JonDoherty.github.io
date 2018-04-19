@@ -4,8 +4,9 @@
   margin-bottom: 20px;
 
 div {
-  max-width: 90%;
-  max-height: 680px;
+  width: 90%;
+  height: 680px;
+  overflow: hidden;
 }  
 
 .catportrait {
