@@ -11,6 +11,6 @@
 }  
 */
 img {
-  width: 680px !important;
-  height: 480px !important;
+  max-width: 680px !important;
+  max-height: 480px !important;
 }
