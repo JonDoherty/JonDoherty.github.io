@@ -5,12 +5,12 @@
   text-align: center;
   
 
-/*div {
-  max-width: 1000px;
-  height: 750px;
+.container {
+  max-width: 100%;
+  max-height: auto;
 }  
-*/
-#catportrait {
-  max-width: 680px !important;
-  max-height: 480px !important;
+
+.container #catportrait {
+  max-width: 100%;
+  max-height: auto;
 }
